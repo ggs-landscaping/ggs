@@ -1,1 +1,13 @@
 @import "../../src/scss/variables.scss";
+
+.title {
+  h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  hr {
+    width: 25px;
+    border: 1px solid $primary;
+  }
+}

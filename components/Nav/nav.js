@@ -51,7 +51,7 @@ const MainNav = props => {
               </Link>
             </NavItem>
             <NavItem>
-              <Link to="/get-a-quote" className="nav-link">
+              <Link to="/quote" className="nav-link">
                 Get A Quote
               </Link>
             </NavItem>

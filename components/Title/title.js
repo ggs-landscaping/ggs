@@ -5,8 +5,10 @@ import "../Title/title.scss"
 const Title = ({ title }) => {
   return (
     <>
-      <h2>{title}</h2>
-      <hr />
+      <div className="title">
+        <h2>{title}</h2>
+        <hr />
+      </div>
     </>
   )
 }

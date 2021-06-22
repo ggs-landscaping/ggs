@@ -5,8 +5,10 @@ button {
   border: 1px solid $primary !important;
   border-radius: 0px !important;
   background: transparent;
+  text-transform: uppercase !important;
   color: #fff;
-  font-size: 12px;
+  font-size: 12px !important;
+  letter-spacing: 2px;
   transition: 0.2s;
   &:focus,
   &:hover {

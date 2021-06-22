@@ -1,1 +1,18 @@
 @import "../../src/scss/variables.scss";
+
+.img-box {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px;
+  background-blend-mode: multiply;
+  background-color: #666666;
+  h3 {
+    font-size: 30px;
+    color: $white;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    @include bp-tablet-sm {
+      margin-bottom: 10px;
+    }
+  }
+}
