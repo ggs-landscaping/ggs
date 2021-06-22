@@ -12,7 +12,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`cardo\:400,700`, `poppins\:400,700`],
+        fonts: [
+          `pt sans`,
+          `cardo\:400,700`, // you can also specify font weights and styles
+        ],
         display: "swap",
       },
     },

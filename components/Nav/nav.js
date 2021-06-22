@@ -7,14 +7,11 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
 } from "reactstrap"
+import logo from "../../src/img/logo.png"
 import "../Nav/nav.scss"
 
-const Example = props => {
+const MainNav = props => {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggle = () => setIsOpen(!isOpen)
@@ -24,43 +21,38 @@ const Example = props => {
       <Navbar id="nav" expand="lg">
         <NavbarBrand href="/">
           <Link to="/" className="logo">
-            logo
+            <img
+              src={logo}
+              alt="niagara-on-the-lake outdoor landscaping design &amp; construction full service landscaping"
+            />
           </Link>
         </NavbarBrand>
         <NavbarToggler className="custom-toggler" onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Link
-              </DropdownToggle>
-              <DropdownMenu right className="animate slideIn">
-                <Link to="#">
-                  <DropdownItem>Link</DropdownItem>
-                </Link>
-                <Link to="#">
-                  <DropdownItem>Link</DropdownItem>
-                </Link>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Link
-              </DropdownToggle>
-              <DropdownMenu right className="animate slideIn">
-                <Link to="#">
-                  <DropdownItem>Link</DropdownItem>
-                </Link>
-              </DropdownMenu>
-            </UncontrolledDropdown>
             <NavItem>
-              <Link to="#" className="nav-link">
-                Link
+              <Link to="/services" className="nav-link">
+                Services
               </Link>
             </NavItem>
             <NavItem>
-              <Link to="#" className="nav-link">
-                Link
+              <Link to="/portfolio" className="nav-link">
+                Portfolio
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/company" className="nav-link">
+                Our Company
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/contact" className="nav-link">
+                Contact Us
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/get-a-quote" className="nav-link">
+                Get A Quote
               </Link>
             </NavItem>
           </Nav>
@@ -70,4 +62,4 @@ const Example = props => {
   )
 }
 
-export default Example
+export default MainNav
