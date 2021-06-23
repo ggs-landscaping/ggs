@@ -14,7 +14,7 @@
 }
 
 .custom-toggler.navbar-toggler {
-  border: none;
+  border: none !important;
   border-radius: 0px !important;
   background-color: rgba(0, 0, 0, 0);
   box-shadow: none;
@@ -43,7 +43,7 @@
   @include bp-tablet-sm {
     margin-top: 0px !important;
     padding: 0.5rem 1rem !important;
-    background: #fff !important;
+    background: $tertiary !important;
     position: fixed !important;
     top: 0 !important;
     right: 0 !important;

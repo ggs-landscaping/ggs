@@ -12,18 +12,35 @@
       height: 100%;
       border: 1px solid $secondary;
       content: "";
+      @include bp-tablet-sm {
+        top: initial;
+        left: initial;
+      }
+    }
+    @include bp-tablet-sm {
+      margin-bottom: 30px;
     }
   }
   hr {
     margin-left: 0px;
+    @include bp-tablet-sm {
+      margin-left: auto;
+    }
   }
   h3 {
     letter-spacing: normal;
     margin-top: 30px;
     margin-bottom: 30px;
+    @include bp-tablet-sm {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
   }
   p {
     margin-bottom: 40px;
+    @include bp-tablet-sm {
+      margin-bottom: 20px;
+    }
   }
   button {
     color: $paragraph;

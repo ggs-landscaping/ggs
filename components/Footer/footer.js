@@ -13,17 +13,18 @@ const Footer = () => {
           <Row>
             <Col lg="6">
               <h2>Have a project in mind?</h2>
-              <p>
+              <p id="subtitle">
                 Connect with us today for your free, no obligation consultation.
               </p>
             </Col>
-            <Col lg="6">
+            <Col lg="6" className="text-center">
               <Link to="/get-a-quote">
                 <Button>Free Consultation</Button>
               </Link>
             </Col>
           </Row>
-          <Row className="btm">
+          <hr />
+          <Row>
             <Col lg="3">
               <p>
                 3842 Orlando Dr.
