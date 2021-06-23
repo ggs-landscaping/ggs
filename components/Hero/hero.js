@@ -27,7 +27,7 @@ const Hero = () => {
                     Construction
                   </h1>
                   <h2>Full Service Landscaping</h2>
-                  <Link to="/get-a-quote">
+                  <Link to="/quote">
                     <Button>Free Consultation</Button>
                   </Link>
                 </div>

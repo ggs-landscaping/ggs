@@ -95,7 +95,7 @@ const Home = () => {
           subTitle="Turn your Niagara outdoors into a work of art."
           desc="We work with the customer to achieve a desired look to suit their property and needs. Making sure its not only beautiful but also functional, getting the most use out of their space. This can include adding vegetable and herb plants among perennials that add to the garden in both form and function."
           btnText="About Us"
-          btnLink="/about"
+          btnLink="/company"
         />
       </div>
       <CTA />

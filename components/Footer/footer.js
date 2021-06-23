@@ -18,7 +18,7 @@ const Footer = () => {
               </p>
             </Col>
             <Col lg="6" className="text-center">
-              <Link to="/get-a-quote">
+              <Link to="/quote">
                 <Button>Free Consultation</Button>
               </Link>
             </Col>

@@ -11,11 +11,11 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>Inner - Company</title>
+        <title>Contact Us - GGS Niagara Landscaping</title>
         <meta name="description" content="description" />
       </Helmet>
       <Nav />
-      <InnerHero title="inner" description="description" />
+      <InnerHero title="Contact Us" description="description" />
       <InnerContent>
         <section className="inner">
           <Container>

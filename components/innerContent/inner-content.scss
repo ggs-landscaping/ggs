@@ -6,10 +6,35 @@
   @include bp-tablet-sm {
     padding: 60px 0px 60px 0px;
   }
-
+  p {
+    margin-bottom: 0px;
+  }
   hr {
     width: 100px;
     margin-top: 0px;
+    margin-bottom: 30px;
+  }
+}
+
+// Company
+
+.img-container {
+  display: inline-block;
+  position: relative;
+  &::before {
+    position: absolute;
+    top: -5%;
+    left: 5%;
+    width: 100%;
+    height: 100%;
+    border: 1px solid $secondary;
+    content: "";
+    @include bp-tablet-sm {
+      top: initial;
+      left: initial;
+    }
+  }
+  @include bp-tablet-sm {
     margin-bottom: 30px;
   }
 }
