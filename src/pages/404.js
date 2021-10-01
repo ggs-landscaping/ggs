@@ -12,7 +12,7 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>404 - GGS Niagara Landscaping</title>
+        <title>404 - GGS Niagara Landscapingg</title>
         <meta
           name="description"
           content="Uh oh! You've reached a page that doesn't exist."
