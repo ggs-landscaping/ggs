@@ -1,0 +1,27 @@
+// Image Gallery
+@import "./breakpoints.scss";
+
+.image-gallery {
+  button {
+    padding: inherit !important;
+    &:focus,
+    &:hover {
+      background: none;
+      transform: translateY(0%) !important;
+      top: 40%;
+    }
+  }
+  .image-gallery-thumbnails-container {
+    margin-top: 30px;
+    @include bp-tablet-sm {
+      margin-bottom: 0px;
+    }
+    .image-gallery-thumbnail-image {
+      padding: 0px 5px 0px 5px;
+    }
+  }
+  .image-gallery-play-button,
+  .image-gallery-fullscreen-button {
+    display: none;
+  }
+}

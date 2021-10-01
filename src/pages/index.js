@@ -18,6 +18,7 @@ import { Helmet } from "react-helmet"
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../scss/general.scss"
+import "../../node_modules/react-image-gallery/styles/scss/image-gallery.scss"
 
 const Home = () => {
   return (
@@ -79,7 +80,7 @@ const Home = () => {
                 <Fade delay={1100}>
                   <ImageButton
                     title="Snow Removal"
-                    btnLink="/snow#lawn"
+                    btnLink="/services#snow"
                     btnText="Learn More"
                     bgImage={imgFour}
                   />

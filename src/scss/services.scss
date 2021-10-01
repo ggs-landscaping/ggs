@@ -1,0 +1,11 @@
+@import "../scss/variables.scss";
+@import "../scss/breakpoints.scss";
+
+.services {
+  .img-container {
+    margin-right: 40px;
+    @include bp-tablet-sm {
+      margin-right: 0px;
+    }
+  }
+}
