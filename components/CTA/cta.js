@@ -6,7 +6,7 @@ import Title from "../Title/title"
 
 import "../CTA/cta.scss"
 
-const CTA = () => {
+const Cta = () => {
   return (
     <>
       <section className="cta">
@@ -26,4 +26,4 @@ const CTA = () => {
   )
 }
 
-export default CTA
+export default Cta

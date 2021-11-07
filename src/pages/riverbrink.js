@@ -4,23 +4,12 @@ import { Helmet } from "react-helmet"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
 import InnerContent from "../../components/innerContent/innerContent"
-import CTA from "../../components/CTA/cta"
+import Cta from "../../components/CTA/Cta"
 import Footer from "../../components/Footer/footer"
-import AliceCarousel from "react-alice-carousel"
 import "react-alice-carousel/lib/alice-carousel.css"
 import "../scss/image-gallery.scss"
 
-import image1 from "../img/hoppys-1.jpg"
-import image2 from "../img/hoppys-2.jpg"
-import image3 from "../img/hoppys-3.jpg"
-
-const handleDragStart = e => e.preventDefault()
-
-const items = [
-  <img src={image1} onDragStart={handleDragStart} role="presentation" />,
-  <img src={image2} onDragStart={handleDragStart} role="presentation" />,
-  <img src={image3} onDragStart={handleDragStart} role="presentation" />,
-]
+import image1 from "../img/river-1.jpg"
 
 const RiverBrink = () => {
   return (
@@ -42,21 +31,23 @@ const RiverBrink = () => {
           <Container>
             <Row>
               <Col lg="12">
-                <AliceCarousel mouseTracking items={items} />
+                <img className="pd-btm-30" src={image1} alt="riverbrink" />
                 <h2>What We Did</h2>
                 <p>
-                  Hoppy’s Bed and Breakfast was looking to create a new front
-                  garden alongside their driveway. GGS was hired to plan and
-                  design the project using armour stone to create the wall. GGS
-                  also picked out and planted all of the flowers to complete the
-                  look.
+                  RiverBrink Art Museum wanted to create an eye popping annual
+                  bed beside their entryway to welcome their guests. GGS was
+                  hired to create the design and do the planting to achieve this
+                  goal. GGS used a combination of shorter and higher plants to
+                  optimize the space. They also managed to have colour all
+                  season long by selecting plants that would flower during
+                  different times throughout the spring and summer.
                 </p>
               </Col>
             </Row>
           </Container>
         </section>
       </InnerContent>
-      <CTA />
+      <Cta />
       <Footer />
     </>
   )

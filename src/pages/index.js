@@ -11,7 +11,6 @@ import imgThree from "../img/landscape.jpg"
 import imgFour from "../img/snow.jpg"
 import SplitImgContent from "../../components/SplitImgContent/SplitImgContent"
 import craftImg from "../img/craft.jpg"
-import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 
 import { Helmet } from "react-helmet"
@@ -19,17 +18,16 @@ import { Helmet } from "react-helmet"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../scss/general.scss"
 import "../../node_modules/react-image-gallery/styles/scss/image-gallery.scss"
+import Cta from "./../../components/CTA/Cta"
 
 const Home = () => {
   return (
     <>
       <Helmet>
-        <title>
-          Niagara-on-the-Lake Outdoor Landscaping Design &amp; Construction
-        </title>
+        <title>GGS Niagara Landscaping Inc.</title>
         <meta
           name="description"
-          content="Niagara-on-the-Lake Outdoor Landscaping Design &amp; Construction Full Service Landscaping. Click here to learn more."
+          content="GGS Niagara Landscaping Design &amp; Construction Full Service Landscaping. Click here to learn more."
         />
       </Helmet>
       <Nav />
@@ -99,7 +97,7 @@ const Home = () => {
           btnLink="/company"
         />
       </div>
-      <CTA />
+      <Cta />
       <Footer />
     </>
   )
