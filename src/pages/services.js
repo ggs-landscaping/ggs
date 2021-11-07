@@ -44,7 +44,7 @@ const About = () => {
                 <h2>Property Maintenance</h2>
                 <p>
                   We offer full service landscape maintenance to address all of
-                  your property needs from regular cutting to fertilizing, and
+                  your property needs from regular cutting to fertilizing and
                   tree trimming.{" "}
                 </p>
                 <br />
@@ -56,6 +56,7 @@ const About = () => {
                   <li>Garden edging</li>
                   <li>Annual planters</li>
                   <li>Interlock weed removal</li>
+                  <li>Winterizing</li>
                   <li>And much more!</li>
                 </ul>
               </Col>
@@ -74,7 +75,7 @@ const About = () => {
                   with over 10 years in the industry we know just how to achieve
                   this. Whether you are beginning to see yellow patches in your
                   grass, have damage due to insects or pests, or need to get rid
-                  of weeds in your lawn we have got you covered.
+                  of weeds in your lawn we've got you covered.
                 </p>
                 <br />
                 <p>What we offer:</p>
@@ -113,7 +114,6 @@ const About = () => {
                 <ul>
                   <li>Garden bed design and planting</li>
                   <li>Tree and shrub install</li>
-                  <li>Sod</li>
                 </ul>
               </Col>
             </Row>

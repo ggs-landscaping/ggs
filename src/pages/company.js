@@ -33,17 +33,17 @@ const Company = () => {
               </Col>
               <Col lg="6">
                 <p>
-                  GGS Niagara Landscaping Inc. is a full service landscape
-                  maintenance and garden design company. As a graduate from the
-                  Niagara College Landscape Technician program in 2013 my career
-                  in this industry took off. Since that time I have have worked
-                  with different companies as a crew supervisor looking after
-                  some of Niagara's finest landscapes. Over the years I have
-                  kept up with the latest trends and knowledge to ensure each
-                  client gets the best possible service.
+                  GGS Niagara Landscaping Inc. offers full service landscape
+                  maintenance and garden design. After completing Niagara
+                  College’s Landscape Technician program in 2013 my career in
+                  the industry took off. Since that time I have worked with
+                  different companies as a crew supervisor looking after some of
+                  Niagara's finest landscapes. Over the years I have kept up
+                  with the latest trends and knowledge to ensure each client
+                  gets the best possible service.
                   <br />
                   <br />
-                  From using organic bee safe fertilizer to water management
+                  From using organic bee safe fertilizer, to water management
                   practices not only will you have a beautiful landscape but it
                   will also be healthy, and good for the planet. With Nearly 10
                   years in the landscape industry I have learnt a lot about what

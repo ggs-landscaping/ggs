@@ -17,14 +17,14 @@ const Hero = () => {
               <Fade>
                 <img
                   src={image}
-                  alt="niagara-on-the-lake outdoor landscaping design &amp; construction"
+                  alt="niagara landscaping design &amp; construction"
                 />
               </Fade>
               <Fade delay={300}>
                 <div className="box">
                   <h1>
-                    Niagara-on-the-Lake Outdoor Landscaping Design &amp;
-                    Construction
+                    Landscape design, Maintenance and construction servicing
+                    <br /> the Niagara region
                   </h1>
                   <h2>Full Service Landscaping</h2>
                   <Link to="/quote">

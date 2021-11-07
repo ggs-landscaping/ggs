@@ -27,15 +27,22 @@ const Footer = () => {
           <Row>
             <Col lg="3">
               <p>
-                3842 Orlando Dr.
+                10300 Stanley Ave.
                 <br />
                 Niagara Falls, Ontario
                 <br />
-                L2J 4B7
+                L2G 0V4
               </p>
             </Col>
             <Col lg="3">
-              <a href="tel:(905) 941-1575">(905) 941-1575</a>
+              <p>
+                Office: {""}
+                <a href="tel:(905) 359-3748">(905) 359-3748</a>
+              </p>
+              <p>
+                Direct: {""}
+                <a href="tel:(905) 941-1575">(905) 941-1575</a>
+              </p>
             </Col>
             <Col lg="3">
               <a href="mailto:ggsniagara@gmail.com">ggsniagara@gmail.com</a>

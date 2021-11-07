@@ -92,7 +92,7 @@ const Home = () => {
         <SplitImgContent
           img={craftImg}
           subTitle="Turn your Niagara outdoors into a work of art."
-          desc="We work with the customer to achieve a desired look to suit their property and needs. Making sure its not only beautiful but also functional, getting the most use out of their space. This can include adding vegetable and herb plants among perennials that add to the garden in both form and function."
+          desc="We work with you to achieve the desired look to suit your property and needs. Making sure it is not only beautiful but also functional so as to get the most out of your outdoor space. This can include adding vegetable and herbs along with bee friendly plants which adds to the garden in both form and function."
           btnText="About Us"
           btnLink="/company"
         />
