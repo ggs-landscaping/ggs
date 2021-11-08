@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Button from "../Button/button"
 import Title from "../Title/title"
 
-import "../CTA/cta.scss"
+import "./cta.scss"
 
 const Cta = () => {
   return (

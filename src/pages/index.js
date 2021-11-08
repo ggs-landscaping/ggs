@@ -18,7 +18,7 @@ import { Helmet } from "react-helmet"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../scss/general.scss"
 import "../../node_modules/react-image-gallery/styles/scss/image-gallery.scss"
-import Cta from "./../../components/CTA/Cta"
+import Cta from "../../components/Cta/Cta"
 
 const Home = () => {
   return (
