@@ -11,6 +11,7 @@ import imgThree from "../img/landscape.jpg"
 import imgFour from "../img/snow.jpg"
 import SplitImgContent from "../../components/SplitImgContent/SplitImgContent"
 import craftImg from "../img/craft.jpg"
+import Cta from "../../components/Cta/Cta"
 import Footer from "../../components/Footer/footer"
 
 import { Helmet } from "react-helmet"
@@ -18,7 +19,6 @@ import { Helmet } from "react-helmet"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../scss/general.scss"
 import "../../node_modules/react-image-gallery/styles/scss/image-gallery.scss"
-import Cta from "../../components/Cta/Cta"
 
 const Home = () => {
   return (
