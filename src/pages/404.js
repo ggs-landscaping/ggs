@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
 import InnerContent from "../../components/innerContent/innerContent"
-import Cta from "../../components/Cta/Cta"
+import Cta from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 
 const About = () => {

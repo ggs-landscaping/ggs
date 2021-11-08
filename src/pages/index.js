@@ -11,7 +11,7 @@ import imgThree from "../img/landscape.jpg"
 import imgFour from "../img/snow.jpg"
 import SplitImgContent from "../../components/SplitImgContent/SplitImgContent"
 import craftImg from "../img/craft.jpg"
-import Cta from "../../components/Cta/Cta"
+import Cta from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 
 import { Helmet } from "react-helmet"
