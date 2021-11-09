@@ -14,4 +14,14 @@ button {
   &:hover {
     background: $primary;
   }
+  &.quote {
+    margin-top: 20px;
+    background: $primary;
+    color: #fff;
+    &:focus,
+    &:hover {
+      background: $secondary;
+      border: 1px solid $secondary !important;
+    }
+  }
 }

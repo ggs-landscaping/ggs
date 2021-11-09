@@ -46,11 +46,6 @@ const MainNav = props => {
               </Link>
             </NavItem>
             <NavItem>
-              <Link to="/contact" className="nav-link">
-                Contact Us
-              </Link>
-            </NavItem>
-            <NavItem>
               <Link to="/quote" className="nav-link">
                 Get A Quote
               </Link>
