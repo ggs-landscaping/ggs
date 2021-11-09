@@ -38,7 +38,7 @@ const About = () => {
                           First Name<sup>*</sup>
                         </label>
                         <input
-                          name="name"
+                          name="first name"
                           type="name"
                           class="form-control"
                           id="First Name"
@@ -53,7 +53,7 @@ const About = () => {
                           Last Name<sup>*</sup>
                         </label>
                         <input
-                          name="name"
+                          name="last name"
                           type="name"
                           class="form-control"
                           id="Last Name"
