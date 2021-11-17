@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://website.com`,
+    siteUrl: `https://ggsniagaralandscaping.ca/`,
   },
   plugins: [
     {
@@ -43,8 +43,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://website.com",
-        sitemap: "https://website.com/sitemap.xml",
+        host: "https://ggsniagaralandscaping.ca/",
+        sitemap: "https://ggsniagaralandscaping.ca//sitemap.xml",
         policy: [{ userAgent: "*", allow: "/" }],
       },
     },
@@ -52,7 +52,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
-        trackingId: "goes here",
+        trackingId: "UA-115010456-4",
         // Defines where to place the tracking script - `true` in the head and `false` in the body
         head: false,
         // Delays sending pageview hits on route update (in milliseconds)
