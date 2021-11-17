@@ -54,7 +54,7 @@ module.exports = {
         // The property ID; the tracking code won't be generated without it
         trackingId: "UA-115010456-4",
         // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: false,
+        head: true,
         // Delays sending pageview hits on route update (in milliseconds)
         pageTransitionDelay: 0,
         // Defers execution of google analytics script after page load
