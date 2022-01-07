@@ -45,7 +45,7 @@ const Footer = () => {
               </p>
             </Col>
             <Col lg="3">
-              <a href="mailto:ggsniagara@gmail.com">ggsniagara@gmail.com</a>
+              <a href="mailto:admin@ggsniagara.ca">admin@ggsniagara.ca</a>
             </Col>
             <Col lg="3">
               <p className="grey">
